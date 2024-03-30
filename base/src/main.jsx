@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Layout>
       {restaurants.map((restaurant) => (
         <Restaurant restaurant={restaurant} />
-      ))};
+      ))}
   </Layout>
 
 // Доп (пример одного магазина)

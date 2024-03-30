@@ -1,11 +1,11 @@
-import { MenuItem } from '../menuItem/component';
+import { Dish } from '../dish/component';
 
-export const Menu = ({ menu }) => {
+export const Menu = ({ dishes }) => {
 	return (
 		<ul>
-			{menu.map((menuItem) => (
+			{dishes.map((dish) => (
 				<li>
-					<MenuItem menuItem={menuItem} />
+					<Dish dish={dish} />
 				</li>
 			))}
 		</ul>
