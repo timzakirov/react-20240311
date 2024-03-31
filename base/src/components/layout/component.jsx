@@ -3,7 +3,7 @@ import { Footer } from '../footer/component'
 
 export const Layout = ({ children }) => {
 	return (
-		<div class="layout">
+		<div>
 			<Header />
 				<main>{children}</main>
 			<Footer />
